@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78425091B79652F00DBDA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78425081B79652F00DBDA15 /* AppDelegate.swift */; };
+		C784250B1B79652F00DBDA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784250A1B79652F00DBDA15 /* ViewController.swift */; };
+		C784250E1B79652F00DBDA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C784250C1B79652F00DBDA15 /* Main.storyboard */; };
+		C78425101B79652F00DBDA15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C784250F1B79652F00DBDA15 /* Images.xcassets */; };
+		C78425131B79652F00DBDA15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78425111B79652F00DBDA15 /* LaunchScreen.xib */; };
+		C784251F1B79652F00DBDA15 /* PlumYogaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784251E1B79652F00DBDA15 /* PlumYogaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C78425191B79652F00DBDA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78424FB1B79652F00DBDA15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78425021B79652F00DBDA15;
+			remoteInfo = PlumYoga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C78425031B79652F00DBDA15 /* PlumYoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlumYoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78425071B79652F00DBDA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78425081B79652F00DBDA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C784250A1B79652F00DBDA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C784250D1B79652F00DBDA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C784250F1B79652F00DBDA15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C78425121B79652F00DBDA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C78425181B79652F00DBDA15 /* PlumYogaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlumYogaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C784251D1B79652F00DBDA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C784251E1B79652F00DBDA15 /* PlumYogaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumYogaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78425001B79652F00DBDA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78425151B79652F00DBDA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78424FA1B79652F00DBDA15 = {
+			isa = PBXGroup;
+			children = (
+				C78425051B79652F00DBDA15 /* PlumYoga */,
+				C784251B1B79652F00DBDA15 /* PlumYogaTests */,
+				C78425041B79652F00DBDA15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78425041B79652F00DBDA15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78425031B79652F00DBDA15 /* PlumYoga.app */,
+				C78425181B79652F00DBDA15 /* PlumYogaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78425051B79652F00DBDA15 /* PlumYoga */ = {
+			isa = PBXGroup;
+			children = (
+				C78425081B79652F00DBDA15 /* AppDelegate.swift */,
+				C784250A1B79652F00DBDA15 /* ViewController.swift */,
+				C784250C1B79652F00DBDA15 /* Main.storyboard */,
+				C784250F1B79652F00DBDA15 /* Images.xcassets */,
+				C78425111B79652F00DBDA15 /* LaunchScreen.xib */,
+				C78425061B79652F00DBDA15 /* Supporting Files */,
+			);
+			path = PlumYoga;
+			sourceTree = "<group>";
+		};
+		C78425061B79652F00DBDA15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78425071B79652F00DBDA15 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C784251B1B79652F00DBDA15 /* PlumYogaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C784251E1B79652F00DBDA15 /* PlumYogaTests.swift */,
+				C784251C1B79652F00DBDA15 /* Supporting Files */,
+			);
+			path = PlumYogaTests;
+			sourceTree = "<group>";
+		};
+		C784251C1B79652F00DBDA15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C784251D1B79652F00DBDA15 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78425021B79652F00DBDA15 /* PlumYoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78425221B79652F00DBDA15 /* Build configuration list for PBXNativeTarget "PlumYoga" */;
+			buildPhases = (
+				C78424FF1B79652F00DBDA15 /* Sources */,
+				C78425001B79652F00DBDA15 /* Frameworks */,
+				C78425011B79652F00DBDA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlumYoga;
+			productName = PlumYoga;
+			productReference = C78425031B79652F00DBDA15 /* PlumYoga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78425171B79652F00DBDA15 /* PlumYogaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78425251B79652F00DBDA15 /* Build configuration list for PBXNativeTarget "PlumYogaTests" */;
+			buildPhases = (
+				C78425141B79652F00DBDA15 /* Sources */,
+				C78425151B79652F00DBDA15 /* Frameworks */,
+				C78425161B79652F00DBDA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C784251A1B79652F00DBDA15 /* PBXTargetDependency */,
+			);
+			name = PlumYogaTests;
+			productName = PlumYogaTests;
+			productReference = C78425181B79652F00DBDA15 /* PlumYogaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78424FB1B79652F00DBDA15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = me;
+				TargetAttributes = {
+					C78425021B79652F00DBDA15 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C78425171B79652F00DBDA15 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C78425021B79652F00DBDA15;
+					};
+				};
+			};
+			buildConfigurationList = C78424FE1B79652F00DBDA15 /* Build configuration list for PBXProject "PlumYoga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78424FA1B79652F00DBDA15;
+			productRefGroup = C78425041B79652F00DBDA15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78425021B79652F00DBDA15 /* PlumYoga */,
+				C78425171B79652F00DBDA15 /* PlumYogaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78425011B79652F00DBDA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C784250E1B79652F00DBDA15 /* Main.storyboard in Resources */,
+				C78425131B79652F00DBDA15 /* LaunchScreen.xib in Resources */,
+				C78425101B79652F00DBDA15 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78425161B79652F00DBDA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78424FF1B79652F00DBDA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C784250B1B79652F00DBDA15 /* ViewController.swift in Sources */,
+				C78425091B79652F00DBDA15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78425141B79652F00DBDA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C784251F1B79652F00DBDA15 /* PlumYogaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C784251A1B79652F00DBDA15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78425021B79652F00DBDA15 /* PlumYoga */;
+			targetProxy = C78425191B79652F00DBDA15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C784250C1B79652F00DBDA15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C784250D1B79652F00DBDA15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C78425111B79652F00DBDA15 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78425121B79652F00DBDA15 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78425201B79652F00DBDA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78425211B79652F00DBDA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78425231B79652F00DBDA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peter Coman (SNEJ3QBL47)";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = PlumYoga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comapps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78425241B79652F00DBDA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Peter Coman (3K9YC2X2EU)";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = PlumYoga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comapps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C78425261B79652F00DBDA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlumYogaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comapps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlumYoga.app/PlumYoga";
+			};
+			name = Debug;
+		};
+		C78425271B79652F00DBDA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlumYogaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comapps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlumYoga.app/PlumYoga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78424FE1B79652F00DBDA15 /* Build configuration list for PBXProject "PlumYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78425201B79652F00DBDA15 /* Debug */,
+				C78425211B79652F00DBDA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78425221B79652F00DBDA15 /* Build configuration list for PBXNativeTarget "PlumYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78425231B79652F00DBDA15 /* Debug */,
+				C78425241B79652F00DBDA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78425251B79652F00DBDA15 /* Build configuration list for PBXNativeTarget "PlumYogaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78425261B79652F00DBDA15 /* Debug */,
+				C78425271B79652F00DBDA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78424FB1B79652F00DBDA15 /* Project object */;
+}
